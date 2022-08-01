@@ -26,15 +26,16 @@ const hide = (elem) => {
 let activeNote = {};
 
 const getNotes = () =>
-  fetch('/api/notes', {
+  fetch('http://vittorio-note-taker.herokuapp.com/api/notes', {
     method: 'GET',
+    mode: 'no-cors',
     headers: {
       'Content-Type': 'application/json',
     },
   });
 
 const saveNote = (note) =>
-  fetch('/api/notes', {
+  fetch('http://vittorio-note-taker.herokuapp.com/api/notes', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
@@ -43,7 +44,7 @@ const saveNote = (note) =>
   });
 
 const deleteNote = (id) =>
-  fetch(`/api/notes/${id}`, {
+  fetch(`http://vittorio-note-taker.herokuapp.com/api/notes/${id}`, {
     method: 'DELETE',
     headers: {
       'Content-Type': 'application/json',
