@@ -3,5 +3,5 @@ This application , as been deploy to Heroku.
 This application is easy to use.
 just add the notes in the title and comments.
 then press save to save.
-You will then see a list of notes, if you want to remove or delete a saved not just click the deleter bin and the saved note will be gone.
+You will then see a list of notes, if you want to remove or delete a saved note just click on the delete bin and the saved note will be deleted.
 ![App Image](https://github.com/Vittorioemot/Note-Taker/blob/main/screenshot_note_taker_save_button.png)
